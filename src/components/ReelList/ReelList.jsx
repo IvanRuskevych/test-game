@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
+import { ReelItem } from '../ReelItem/ReelItem.jsx';
 import { StyledList } from './ReelList.styled.js';
-import ReelItem from '../ReelItem/ReelItem.jsx';
 
-const ReelList = ({ items }) => {
+export const ReelList = ({ items }) => {
   const selectedItems = items.slice(0, 3);
 
   return (
@@ -22,5 +22,3 @@ ReelList.propTypes = {
     })
   ).isRequired,
 };
-
-export default ReelList;
