@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { StyledItem } from './ReelItem.styled.js';
 
-export const ReelItem = ({ content, ...props }) => {
+export const ReelItem = ({ content }) => {
   return (
-    <StyledItem {...props}>
+    <StyledItem>
       <img src={content} alt={'symbol image'} />
     </StyledItem>
   );

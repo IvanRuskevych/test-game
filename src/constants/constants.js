@@ -1,4 +1,4 @@
-import { images } from '../public/images/index.js';
+import { images } from '../../public/images/index.js';
 
 export const symbols = [
   { id: 0, content: images.M00 },
